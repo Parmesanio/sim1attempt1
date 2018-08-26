@@ -1,0 +1,27 @@
+.formcomponent {
+    background: #3ad886;
+    border-radius: 10px;
+    width: 35%;
+    height: 520px;
+    margin: 1em auto;
+    text-align: center;
+    position: relative;
+}
+
+input, label {
+    display: block;
+    width: 95%;
+    text-align: left;
+    margin: 1em auto;
+}
+.addsave, .clear {
+    background: #ed6b5a;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    padding: 10px;
+    right: 5%;
+}
+.clear {
+    left: 5%;
+}

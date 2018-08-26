@@ -25,7 +25,7 @@ handleGetAll() {
 }
 handleDelete(id) {
     axios.delete(`/api/product/${id}`)
-        .then(() => this.handleGetAll())
+        .then(() => this.props.history.push('/'))
         .catch(err => console.log('Err in handleDelete', err));
 }
 
@@ -37,9 +37,7 @@ handleDelete(id) {
         });
         return ( 
             <div>
-                Dashboard
                 {mapped}
-
             </div>
          );
     }

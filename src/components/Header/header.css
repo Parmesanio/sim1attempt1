@@ -1,0 +1,22 @@
+header {
+    background: #ab2a19;
+    height: 70px;
+    overflow: hidden;
+}
+.brand {
+    float: left;
+    margin-left: 3em;
+}
+nav {
+    float: left;
+    line-height: 4.8;
+    margin-left: 3em;
+}
+nav a {
+    margin-left: 1em;
+    padding: 12px 20px;
+    background: #ed6b5a;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+}

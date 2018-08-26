@@ -1,0 +1,34 @@
+.product {
+    background: #d34735;
+    border-radius: 10px;
+    display: flex;
+    width: 40%;
+    margin: 1em auto;
+}
+.details {
+    position: relative;
+    width: 50%;
+}
+.delete, .edit {
+    cursor: pointer;
+    position: absolute;
+    bottom: 6%;
+    left: 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #3ad886;
+    width: 53.8px;
+}
+.edit {
+    left: 70%;
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+img {
+    margin: 1em;
+    width: 272px;
+    height: 200px;
+}
