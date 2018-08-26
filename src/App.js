@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Dashboard from './components/Dashboard/Dashboard';
 import Form from './components/Form/Form';
+import routes from './routes';
 
 class App extends Component {
   constructor() {
@@ -13,8 +14,7 @@ class App extends Component {
     return (
       <div className="App">
       <Header />
-      <Dashboard />
-      <Form />
+      {routes}
       </div>
     );
   }
